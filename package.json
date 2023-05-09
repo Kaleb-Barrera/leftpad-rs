@@ -1,6 +1,6 @@
 {
   "name": "@leftpad-rs/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Combine the blazingly fast speeds of Rust with your slow, inneficient JavaScript with this one-size-fits-all library",
   "main": "index.js",
   "types": "index.d.ts",
