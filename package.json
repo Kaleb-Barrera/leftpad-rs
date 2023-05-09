@@ -1,6 +1,7 @@
 {
   "name": "@leftpad-rs/core",
   "version": "1.0.2",
+  "description": "Combine the blazingly fast speeds of Rust with your slow, inneficient JavaScript with this one-size-fits-all library",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -41,5 +42,21 @@
     "universal": "napi universal",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.5.1",
+  "optionalDependencies": {
+    "@leftpad-rs/core-win32-x64-msvc": "1.0.2",
+    "@leftpad-rs/core-darwin-x64": "1.0.2",
+    "@leftpad-rs/core-linux-x64-gnu": "1.0.2",
+    "@leftpad-rs/core-darwin-arm64": "1.0.2",
+    "@leftpad-rs/core-android-arm64": "1.0.2",
+    "@leftpad-rs/core-linux-arm64-gnu": "1.0.2",
+    "@leftpad-rs/core-linux-arm64-musl": "1.0.2",
+    "@leftpad-rs/core-win32-arm64-msvc": "1.0.2",
+    "@leftpad-rs/core-linux-arm-gnueabihf": "1.0.2",
+    "@leftpad-rs/core-linux-x64-musl": "1.0.2",
+    "@leftpad-rs/core-freebsd-x64": "1.0.2",
+    "@leftpad-rs/core-win32-ia32-msvc": "1.0.2",
+    "@leftpad-rs/core-android-arm-eabi": "1.0.2",
+    "@leftpad-rs/core-darwin-universal": "1.0.2"
+  }
 }
